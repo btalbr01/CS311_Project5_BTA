@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+    <head>
+        <title>Ben's Mad Lib</title>
+        <link rel="stylesheet" href="css\index.css" />
+        <script src="js\properties.js"></script>
+    </head>
+    <body>
+        <h1>Ben's Mad Lib</h1>
+        
+        <div id="logo">
+            <p><img id= "madlibLogo" src="img\madlibs.jpg" alt="The Mad Libs logo" height="200px" width="200px"></p>
+        </div>
+        
+        <div id="madlib">        
+        <p><label for = "adjective1">1. Adjective<br /></label> <input type="adjective1" id="adjective1" name="adjective1"></p>
+        <p><label for = "adjective2">2. Adjective<br /></label> <input type="text" id="adjective2" name="adjective2"></p>
+        <p><label for = "food">3. Type of food<br /></label> <input type="text" id="food" name="food"></p>
+        <p><label for = "room">4. Room in a house<br /></label> <input type="room" id="room" name="room"></p>
+        <p><label for = "pastVerb">5. Verb (past tense)<br /></label> <input type="pastVerb" id="pastVerb" name="pastVerb"></p>
+        <p><label for = "verb">6. Verb<br /></label> <input type="verb" id="verb" name="verb"></p>
+        <p><label for = "name">7. Name<br /></label> <input type="name" id="name" name="name"></p>
+        <p><label for = "noun1">8. Noun<br /></label> <input type="noun1" id="noun1" name="noun1"></p>
+        <p><label for = "noun2">9. Noun<br /></label> <input type="noun2" id="noun2" name="noun2"></p>
+        <p><label for = "ing_verb1">10. Verb ending in -ing<br /></label> <input type="ing_verb1" id="ing_verb1" name="ing_verb1"></p>
+        <p><label for = "body">11. Body part (plural)<br /></label> <input type="body" id="body" name="body"></p>
+        <p><label for = "noun3">12. Noun (plural)<br /></label> <input type="noun3" id="noun3" name="noun3"></p>
+        <p><label for = "ing_verb2">13. Verb ending in -ing<br /></label> <input type="ing_verb2" id="ing_verb2" name="ing_verb2"></p>
+        <p><label for = "noun4">14. Noun<br /></label> <input type="noun4" id="noun4" name="noun4"></p> <br />
+        <p><button onclick="getMadlib()">Show Mad Lib</button></p>
+        </div>
+            
+        <div id="story" style="display:none ">
+            <p id="text"></p><br />
+            <p><button onclick="reset()">Reset</button></p>
+        </div>
+
+
+        <footer>Madlib template found at <a href="https://hobbylark.com/party-games/How-to-Make-Your-Own-Mad-Libs">
+            https://hobbylark.com/party-games/How-to-Make-Your-Own-Mad-Libs</footer>
+    </body>

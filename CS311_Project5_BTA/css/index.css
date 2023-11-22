@@ -1,0 +1,28 @@
+h1
+{
+    text-align: center;
+}   
+
+#madlib
+{
+    display: grid;
+    font-family:Arial, Helvetica, sans-serif;
+    vertical-align: center;
+    grid-template-columns: [col-start] 250px [line2] 250px [line3] 250px;
+    grid-template-rows: [row-start] 50px [line2] 50px [line3] 50px [line4] 50px[line5] 50px;
+}
+
+#logo   
+{
+        float: left;       
+        padding: 10px;  
+}
+
+#story
+{
+    display: grid;
+    font-family:Arial, Helvetica, sans-serif;
+    vertical-align: center;
+    grid-template-columns: [col-start] 250px [line2] 250px [line3] 250px;
+    grid-template-rows: [row-start] 50px [line2] 50px [line3] 50px [line4] 50px[line5] 50px;
+}
